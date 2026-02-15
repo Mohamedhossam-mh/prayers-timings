@@ -10,19 +10,24 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["favicon.ico"],
       devOptions: {
-        enabled: true,
+        enabled: false,
       },
       manifest: {
         name: "مواقيت الصلاة",
         short_name: "الصلاة",
         description: "مواقيت الصلاة حسب مدينتك",
-        theme_color: "#121212",
-        background_color: "#121212",
+        theme_color: "#1976d2",
+        background_color: "#ffffff",
         display: "standalone",
         start_url: "/",
         lang: "ar",
         dir: "rtl",
         icons: [
+          {
+            src: "/icon-192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
           {
             src: "/icon-512.png",
             sizes: "512x512",

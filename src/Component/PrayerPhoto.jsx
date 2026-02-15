@@ -1,11 +1,11 @@
 import Grid from "@mui/material/Grid";
 import Prayer from "./Prayer";
 
-import fajr from "../assets/fajr.png";
-import dhuhr from "../assets/dhuhr.png";
-import asr from "../assets/asr.png";
-import maghrib from "../assets/maghrib.png";
-import isha from "../assets/isha.png";
+import fajr from "../assets/fajr.avif";
+import dhuhr from "../assets/dhuhr.avif";
+import asr from "../assets/asr.avif";
+import maghrib from "../assets/maghrib.avif";
+import isha from "../assets/isha.avif";
 
 export default function PrayerPhoto({ timings }) {
   const prayers = [
